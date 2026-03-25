@@ -1,0 +1,77 @@
+mjoshi@server:~/rlm and ttt for uncertain medical reasoning$ 
+python3 src/run_pilots.py --generate --model qwq-32b
+
+============================================================
+STEP 2: Generate Reasoning Traces
+============================================================
+Loaded 20 pilot questions from cache
+
+Models: ['qwq-32b']
+Questions: 20
+
+============================================================
+MODEL: qwq-32b (Qwen/QwQ-32B)
+============================================================
+
+============================================================
+Loading: Qwen/QwQ-32B
+  device_map: auto
+============================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+  ⚠ Flash attention failed (FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package flash_attn seems to be not installed. Please refer to the documentation of https://huggingface.co/docs/transformers/perf_infer_gpu_one#flashattention-2 to install Flash Attention 2.), trying without it...
+Loading weights: 100%|████████████████████████████████████| 771/771 [04:05<00:00,  3.14it/s, Materializing param=model.norm.weight]
+  ✓ Model loaded successfully
+  [1/20] Generating...
+    [✗] medqa_0228: predicted=B correct=A (292.3s, 1783 tokens, 5286 chars thinking)
+  [2/20] Generating...
+    [✓] medqa_0051: predicted=A correct=A (272.5s, 1622 tokens, 4877 chars thinking)
+  [3/20] Generating...
+    [✓] medqa_0563: predicted=A correct=A (195.0s, 1053 tokens, 4344 chars thinking)
+  [4/20] Generating...
+    [✓] medqa_0501: predicted=D correct=D (320.7s, 1931 tokens, 5008 chars thinking)
+  [5/20] Generating...
+    [✓] medqa_0457: predicted=B correct=B (509.5s, 3026 tokens, 10312 chars thinking)
+  [6/20] Generating...
+    [✗] medqa_0285: predicted=D correct=C (200.2s, 1294 tokens, 3983 chars thinking)
+  [7/20] Generating...
+    [✓] medqa_0209: predicted=A correct=A (251.9s, 1455 tokens, 4560 chars thinking)
+  [8/20] Generating...
+    [✗] medqa_1116: predicted=A correct=C (248.1s, 1574 tokens, 6655 chars thinking)
+  [9/20] Generating...
+    [✗] medqa_0178: predicted=A correct=D (722.4s, 4812 tokens, 13462 chars thinking)
+  [10/20] Generating...
+    [✓] medqa_1209: predicted=A correct=A (223.5s, 1360 tokens, 5219 chars thinking)
+  [11/20] Generating...
+    [✓] medqa_0864: predicted=D correct=D (203.8s, 1125 tokens, 2853 chars thinking)
+  [12/20] Generating...
+    [✓] medqa_0065: predicted=B correct=B (188.3s, 1135 tokens, 3573 chars thinking)
+  [13/20] Generating...
+    [✓] medqa_0061: predicted=A correct=A (170.4s, 937 tokens, 2290 chars thinking)
+  [14/20] Generating...
+    [✓] medqa_0191: predicted=C correct=C (275.8s, 1678 tokens, 6036 chars thinking)
+  [15/20] Generating...
+    [✓] medqa_0447: predicted=C correct=C (373.2s, 2301 tokens, 7974 chars thinking)
+  [16/20] Generating...
+    [✓] medqa_0476: predicted=C correct=C (133.2s, 915 tokens, 2467 chars thinking)
+  [17/20] Generating...
+    [✓] medqa_1034: predicted=B correct=B (929.9s, 5093 tokens, 22359 chars thinking)
+  [18/20] Generating...
+    [✓] medqa_1232: predicted=A correct=A (158.9s, 704 tokens, 1879 chars thinking)
+  [19/20] Generating...
+    [✓] medqa_0054: predicted=A correct=A (250.4s, 1105 tokens, 3263 chars thinking)
+  [20/20] Generating...
+    [✗] medqa_1149: predicted=C correct=B (349.0s, 1600 tokens, 4645 chars thinking)
+
+  RESULTS for qwq-32b:
+    Accuracy:       15/20 (75.0%)
+    Parsed answers: 20/20
+    Errors:         0
+    Avg thinking:   6052 chars
+    Saved to:       /home/mjoshi/rlm and ttt for uncertain medical reasoning/data/traces/qwq-32b/traces.jsonl
+
+✓ All done!
+
+============================================================
+✓ Complete in 109.6 minutes
+============================================================
+mjoshi@server:~/rlm and ttt for uncertain medical reasoning$ 

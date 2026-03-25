@@ -1,0 +1,24 @@
+# Dependencies for pilot experiments
+# Install: pip install -r requirements_pilots.txt
+
+# Core inference (using plain transformers — no vLLM)
+transformers>=4.45.0
+torch>=2.0.0
+accelerate>=0.30.0
+
+# Embedding models
+sentence-transformers>=3.0.0
+
+# Dataset loading
+datasets>=2.16.0
+
+# Statistical analysis
+scipy>=1.12.0
+
+# Utilities (should already be installed)
+numpy>=1.24.0
+tqdm>=4.65.0
+huggingface_hub>=0.20.0
+
+# Optional: 4-bit quantization fallback
+bitsandbytes>=0.43.0

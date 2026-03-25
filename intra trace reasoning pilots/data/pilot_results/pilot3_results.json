@@ -1,0 +1,2087 @@
+{
+  "qwq-32b": {
+    "n_traces": 20,
+    "n_correct": 15,
+    "n_incorrect": 5,
+    "accuracy": 0.75,
+    "correlations": {
+      "hedge": {
+        "spearman_rho": 0.39048841597097184,
+        "p_value": 0.08871390517349352,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.9289080502653996,
+        "mean_density_incorrect": 1.415280162423383
+      },
+      "revise": {
+        "spearman_rho": -0.23028804018800908,
+        "p_value": 0.3286785345078157,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.7280746915818628,
+        "mean_density_incorrect": 0.870500273680233
+      },
+      "verify": {
+        "spearman_rho": 0.5521774451993557,
+        "p_value": 0.01158809911976851,
+        "passes_rho_threshold": true,
+        "passes_p_value": true,
+        "significant": true,
+        "mean_density_correct": 0.031179407607884593,
+        "mean_density_incorrect": 0.18839309007427657
+      },
+      "explicit": {
+        "spearman_rho": -0.13245323570650436,
+        "p_value": 0.5777527094497388,
+        "passes_rho_threshold": false,
+        "passes_p_value": false,
+        "significant": false,
+        "mean_density_correct": 0.0029816479568257376,
+        "mean_density_incorrect": 0.0
+      }
+    },
+    "total_rho": 0.510638697808194,
+    "total_p": 0.021410390473521442,
+    "n_significant_categories": 3,
+    "top_markers_in_errors": {
+      "hedge": 1.415280162423383,
+      "revise": 0.870500273680233,
+      "verify": 0.18839309007427657,
+      "explicit": 0.0
+    },
+    "trace_data": [
+      {
+        "question_id": "medqa_0228",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 5286,
+        "raw_counts": {
+          "hedge": 8,
+          "revise": 2,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.513431706394249,
+          "revise": 0.37835792659856227,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 10,
+        "total_markers_normalized": 1.8917896329928112,
+        "early_normalized": {
+          "hedge": 1.1350737797956867,
+          "revise": 0.7567158531971245,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.8917896329928112,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0051",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 4877,
+        "raw_counts": {
+          "hedge": 6,
+          "revise": 3,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.2302645068689768,
+          "revise": 0.6151322534344884,
+          "verify": 0.2050440844781628,
+          "explicit": 0.0
+        },
+        "total_markers": 10,
+        "total_markers_normalized": 2.050440844781628,
+        "early_normalized": {
+          "hedge": 0.8203445447087777,
+          "revise": 0.8203445447087777,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.6406890894175554,
+          "revise": 0.41017227235438886,
+          "verify": 0.41017227235438886,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0563",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 4344,
+        "raw_counts": {
+          "hedge": 6,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.3812154696132597,
+          "revise": 0.2302025782688766,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 7,
+        "total_markers_normalized": 1.6114180478821363,
+        "early_normalized": {
+          "hedge": 1.8416206261510129,
+          "revise": 0.4604051565377532,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.9208103130755064,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0501",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5008,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 5,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.5990415335463258,
+          "revise": 0.9984025559105432,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 8,
+        "total_markers_normalized": 1.5974440894568689,
+        "early_normalized": {
+          "hedge": 0.3993610223642173,
+          "revise": 1.9968051118210863,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.7987220447284346,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0457",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 10312,
+        "raw_counts": {
+          "hedge": 7,
+          "revise": 6,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.6788207913110939,
+          "revise": 0.5818463925523661,
+          "verify": 0.0969743987587277,
+          "explicit": 0.0
+        },
+        "total_markers": 14,
+        "total_markers_normalized": 1.3576415826221877,
+        "early_normalized": {
+          "hedge": 0.7757951900698216,
+          "revise": 0.3878975950349108,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.5818463925523661,
+          "revise": 0.7757951900698216,
+          "verify": 0.1939487975174554,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0285",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 3983,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 2,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.2596033140848606,
+          "revise": 0.5021340697966357,
+          "verify": 0.5021340697966357,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 3.2638714536781324,
+        "early_normalized": {
+          "hedge": 2.0090406830738323,
+          "revise": 0.5022601707684581,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.5113008538422905,
+          "revise": 0.5022601707684581,
+          "verify": 1.0045203415369162,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0209",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 4560,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 3,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.43859649122807015,
+          "revise": 0.6578947368421053,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 5,
+        "total_markers_normalized": 1.0964912280701755,
+        "early_normalized": {
+          "hedge": 0.43859649122807015,
+          "revise": 0.43859649122807015,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.43859649122807015,
+          "revise": 0.8771929824561403,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1116",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 6655,
+        "raw_counts": {
+          "hedge": 8,
+          "revise": 2,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.2021036814425243,
+          "revise": 0.3005259203606311,
+          "verify": 0.15026296018031554,
+          "explicit": 0.0
+        },
+        "total_markers": 11,
+        "total_markers_normalized": 1.6528925619834711,
+        "early_normalized": {
+          "hedge": 1.5028554253080855,
+          "revise": 0.6011421701232341,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.9017132551848512,
+          "revise": 0.0,
+          "verify": 0.30057108506161706,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0178",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 13462,
+        "raw_counts": {
+          "hedge": 8,
+          "revise": 34,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.5942653394740752,
+          "revise": 2.5256276927648194,
+          "verify": 0.0742831674342594,
+          "explicit": 0.0
+        },
+        "total_markers": 43,
+        "total_markers_normalized": 3.1941761996731537,
+        "early_normalized": {
+          "hedge": 1.0399643440796316,
+          "revise": 2.079928688159263,
+          "verify": 0.1485663348685188,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.1485663348685188,
+          "revise": 2.971326697370376,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1209",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5219,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 4,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.5748227629814141,
+          "revise": 0.7664303506418855,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 7,
+        "total_markers_normalized": 1.3412531136232997,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.7665772326561902,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.1498658489842852,
+          "revise": 0.7665772326561902,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0864",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2853,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.7010164738871364,
+          "revise": 0.3505082369435682,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.0515247108307046,
+        "early_normalized": {
+          "hedge": 0.7012622720897616,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.7012622720897616,
+          "revise": 0.7012622720897616,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0065",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 3573,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 3,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.8396305625524769,
+          "revise": 0.8396305625524769,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 6,
+        "total_markers_normalized": 1.6792611251049538,
+        "early_normalized": {
+          "hedge": 0.5599104143337066,
+          "revise": 1.1198208286674132,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.1198208286674132,
+          "revise": 0.5599104143337066,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0061",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2290,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.8733624454148472,
+          "revise": 0.4366812227074236,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.3100436681222707,
+        "early_normalized": {
+          "hedge": 0.8733624454148472,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.8733624454148472,
+          "revise": 0.8733624454148472,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0191",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 6036,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 4,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.4910536779324055,
+          "revise": 0.6626905235255136,
+          "verify": 0.1656726308813784,
+          "explicit": 0.0
+        },
+        "total_markers": 14,
+        "total_markers_normalized": 2.319416832339298,
+        "early_normalized": {
+          "hedge": 0.9940357852882704,
+          "revise": 0.6626905235255136,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.9880715705765408,
+          "revise": 0.6626905235255136,
+          "verify": 0.3313452617627568,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0447",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 7974,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 8,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.1286681715575622,
+          "revise": 1.0032605969400552,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 17,
+        "total_markers_normalized": 2.1319287684976174,
+        "early_normalized": {
+          "hedge": 1.254075746175069,
+          "revise": 1.0032605969400552,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.0032605969400552,
+          "revise": 1.0032605969400552,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0476",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2467,
+        "raw_counts": {
+          "hedge": 1,
+          "revise": 2,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.40535062829347385,
+          "revise": 0.8107012565869477,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.2160518848804216,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.8110300081103001,
+          "revise": 1.6220600162206003,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1034",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 22359,
+        "raw_counts": {
+          "hedge": 41,
+          "revise": 22,
+          "verify": 0,
+          "explicit": 1
+        },
+        "normalized_counts": {
+          "hedge": 1.8337134934478285,
+          "revise": 0.9839438257524934,
+          "verify": 0.0,
+          "explicit": 0.04472471935238606
+        },
+        "total_markers": 64,
+        "total_markers_normalized": 2.862382038552708,
+        "early_normalized": {
+          "hedge": 1.431255031755971,
+          "revise": 0.8945343948474819,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.2363359871187045,
+          "revise": 1.0734412738169783,
+          "verify": 0.0,
+          "explicit": 0.08945343948474818
+        }
+      },
+      {
+        "question_id": "medqa_1232",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 1879,
+        "raw_counts": {
+          "hedge": 1,
+          "revise": 2,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.532197977647685,
+          "revise": 1.06439595529537,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.5965939329430547,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 1.0649627263045793,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.0649627263045793,
+          "revise": 1.0649627263045793,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0054",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 3263,
+        "raw_counts": {
+          "hedge": 4,
+          "revise": 3,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.225865767698437,
+          "revise": 0.9193993257738278,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 7,
+        "total_markers_normalized": 2.145265093472265,
+        "early_normalized": {
+          "hedge": 1.8393623543838136,
+          "revise": 1.226241569589209,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.6131207847946045,
+          "revise": 0.6131207847946045,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1149",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 4645,
+        "raw_counts": {
+          "hedge": 7,
+          "revise": 3,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.5069967707212055,
+          "revise": 0.6458557588805167,
+          "verify": 0.21528525296017223,
+          "explicit": 0.0
+        },
+        "total_markers": 11,
+        "total_markers_normalized": 2.3681377825618943,
+        "early_normalized": {
+          "hedge": 1.2919896640826873,
+          "revise": 0.8613264427217916,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.7226528854435832,
+          "revise": 0.4306632213608958,
+          "verify": 0.4306632213608958,
+          "explicit": 0.0
+        }
+      }
+    ]
+  },
+  "qwen3-8b": {
+    "n_traces": 20,
+    "n_correct": 11,
+    "n_incorrect": 9,
+    "accuracy": 0.55,
+    "correlations": {
+      "hedge": {
+        "spearman_rho": 0.061026428235532254,
+        "p_value": 0.7982726775422031,
+        "passes_rho_threshold": false,
+        "passes_p_value": false,
+        "significant": false,
+        "mean_density_correct": 1.1121966078724608,
+        "mean_density_incorrect": 1.2296810807059988
+      },
+      "revise": {
+        "spearman_rho": 0.28769601882465207,
+        "p_value": 0.2187039228527931,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.7290209797745394,
+        "mean_density_incorrect": 1.1322328730952749
+      },
+      "verify": {
+        "spearman_rho": -0.1812485388935118,
+        "p_value": 0.44442430443040093,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.18928708723763446,
+        "mean_density_incorrect": 0.2173290558632716
+      },
+      "explicit": {
+        "spearman_rho": 0.25362863675089403,
+        "p_value": 0.28059032475085377,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.0,
+        "mean_density_incorrect": 0.016559032952475575
+      }
+    },
+    "total_rho": 0.2701582759016011,
+    "total_p": 0.2493333110993579,
+    "n_significant_categories": 3,
+    "top_markers_in_errors": {
+      "hedge": 1.2296810807059988,
+      "revise": 1.1322328730952749,
+      "verify": 0.2173290558632716,
+      "explicit": 0.016559032952475575
+    },
+    "trace_data": [
+      {
+        "question_id": "medqa_0228",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5862,
+        "raw_counts": {
+          "hedge": 10,
+          "revise": 4,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.7059024223814399,
+          "revise": 0.6823609689525759,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 14,
+        "total_markers_normalized": 2.3882633913340157,
+        "early_normalized": {
+          "hedge": 1.0235414534288638,
+          "revise": 0.6823609689525759,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.3882633913340157,
+          "revise": 0.6823609689525759,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0051",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5018,
+        "raw_counts": {
+          "hedge": 4,
+          "revise": 8,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.7971303308090872,
+          "revise": 1.5942606616181745,
+          "verify": 0.1992825827022718,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 2.5906735751295336,
+        "early_normalized": {
+          "hedge": 0.7971303308090872,
+          "revise": 2.391390992427262,
+          "verify": 0.3985651654045436,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.7971303308090872,
+          "revise": 0.7971303308090872,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0563",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 1972,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 2,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.5212981744421907,
+          "revise": 1.0141987829614605,
+          "verify": 0.5070993914807302,
+          "explicit": 0.0
+        },
+        "total_markers": 6,
+        "total_markers_normalized": 3.0425963488843815,
+        "early_normalized": {
+          "hedge": 1.0141987829614605,
+          "revise": 2.028397565922921,
+          "verify": 1.0141987829614605,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.028397565922921,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0501",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 4367,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 5,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.6869704602702084,
+          "revise": 1.144950767117014,
+          "verify": 0.2289901534234028,
+          "explicit": 0.0
+        },
+        "total_markers": 9,
+        "total_markers_normalized": 2.060911380810625,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 1.832340815391663,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.3742556115437472,
+          "revise": 0.45808520384791573,
+          "verify": 0.45808520384791573,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0457",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 4588,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 3,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.961639058413252,
+          "revise": 0.6538796861377506,
+          "verify": 0.43591979075850046,
+          "explicit": 0.0
+        },
+        "total_markers": 14,
+        "total_markers_normalized": 3.051438535309503,
+        "early_normalized": {
+          "hedge": 2.1795989537925022,
+          "revise": 0.8718395815170009,
+          "verify": 0.43591979075850046,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.7436791630340018,
+          "revise": 0.43591979075850046,
+          "verify": 0.43591979075850046,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0285",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 6710,
+        "raw_counts": {
+          "hedge": 7,
+          "revise": 5,
+          "verify": 10,
+          "explicit": 1
+        },
+        "normalized_counts": {
+          "hedge": 1.0432190760059612,
+          "revise": 0.7451564828614009,
+          "verify": 1.4903129657228018,
+          "explicit": 0.14903129657228018
+        },
+        "total_markers": 23,
+        "total_markers_normalized": 3.427719821162444,
+        "early_normalized": {
+          "hedge": 1.7883755588673622,
+          "revise": 0.8941877794336811,
+          "verify": 0.5961251862891207,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.29806259314456035,
+          "revise": 0.5961251862891207,
+          "verify": 2.384500745156483,
+          "explicit": 0.29806259314456035
+        }
+      },
+      {
+        "question_id": "medqa_0209",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5026,
+        "raw_counts": {
+          "hedge": 10,
+          "revise": 5,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.9896538002387585,
+          "revise": 0.9948269001193792,
+          "verify": 0.19896538002387584,
+          "explicit": 0.0
+        },
+        "total_markers": 16,
+        "total_markers_normalized": 3.1834460803820135,
+        "early_normalized": {
+          "hedge": 0.3979307600477517,
+          "revise": 0.3979307600477517,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 3.581376840429765,
+          "revise": 1.5917230401910067,
+          "verify": 0.3979307600477517,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1116",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 5937,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 4,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.5159171298635674,
+          "revise": 0.67374094660603,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 2.1896580764695974,
+        "early_normalized": {
+          "hedge": 1.0107816711590296,
+          "revise": 1.0107816711590296,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.0215633423180592,
+          "revise": 0.33692722371967654,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0178",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 3491,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 10,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.8593526210254941,
+          "revise": 2.864508736751647,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 3.723861357777141,
+        "early_normalized": {
+          "hedge": 0.5730659025787965,
+          "revise": 2.865329512893983,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.146131805157593,
+          "revise": 2.865329512893983,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1209",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 8451,
+        "raw_counts": {
+          "hedge": 17,
+          "revise": 10,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.0115962607975386,
+          "revise": 1.1832919181161992,
+          "verify": 0.23665838362323985,
+          "explicit": 0.0
+        },
+        "total_markers": 29,
+        "total_markers_normalized": 3.4315465625369774,
+        "early_normalized": {
+          "hedge": 2.8402366863905324,
+          "revise": 2.1301775147928996,
+          "verify": 0.23668639053254437,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.183431952662722,
+          "revise": 0.23668639053254437,
+          "verify": 0.23668639053254437,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0864",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 7369,
+        "raw_counts": {
+          "hedge": 5,
+          "revise": 6,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.6785181164337087,
+          "revise": 0.8142217397204505,
+          "verify": 0.27140724657348353,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 1.764147102727643,
+        "early_normalized": {
+          "hedge": 0.8143322475570033,
+          "revise": 0.8143322475570033,
+          "verify": 0.2714440825190011,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.5428881650380022,
+          "revise": 0.8143322475570033,
+          "verify": 0.2714440825190011,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0065",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 5693,
+        "raw_counts": {
+          "hedge": 10,
+          "revise": 3,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.756543123133673,
+          "revise": 0.5269629369401019,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 2.283506060073775,
+        "early_normalized": {
+          "hedge": 1.7568517217146873,
+          "revise": 0.7027406886858749,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.7568517217146873,
+          "revise": 0.35137034434293746,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0061",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2130,
+        "raw_counts": {
+          "hedge": 0,
+          "revise": 1,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.0,
+          "revise": 0.4694835680751174,
+          "verify": 0.4694835680751174,
+          "explicit": 0.0
+        },
+        "total_markers": 2,
+        "total_markers_normalized": 0.9389671361502347,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.9389671361502347,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.9389671361502347,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0191",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 4973,
+        "raw_counts": {
+          "hedge": 4,
+          "revise": 7,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.8043434546551378,
+          "revise": 1.4076010456464911,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 11,
+        "total_markers_normalized": 2.211944500301629,
+        "early_normalized": {
+          "hedge": 1.6090104585679808,
+          "revise": 0.8045052292839904,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.0,
+          "revise": 2.011263073209976,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0447",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 7677,
+        "raw_counts": {
+          "hedge": 13,
+          "revise": 6,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.6933698059137683,
+          "revise": 0.7815552950371238,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 19,
+        "total_markers_normalized": 2.474925100950892,
+        "early_normalized": {
+          "hedge": 2.084418968212611,
+          "revise": 0.7816571130797291,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.3027618551328817,
+          "revise": 0.7816571130797291,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0476",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2614,
+        "raw_counts": {
+          "hedge": 1,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.38255547054322875,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 1,
+        "total_markers_normalized": 0.38255547054322875,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.7651109410864575,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1034",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 6995,
+        "raw_counts": {
+          "hedge": 9,
+          "revise": 7,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.2866333095067906,
+          "revise": 1.0007147962830594,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 16,
+        "total_markers_normalized": 2.28734810578985,
+        "early_normalized": {
+          "hedge": 1.7157563625965113,
+          "revise": 0.5719187875321704,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.8578781812982557,
+          "revise": 1.4297969688304262,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1232",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 788,
+        "raw_counts": {
+          "hedge": 0,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.0,
+          "revise": 1.2690355329949239,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 1,
+        "total_markers_normalized": 1.2690355329949239,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 2.5380710659898478,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0054",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2082,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.440922190201729,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.440922190201729,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.9212295869356388,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1149",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 5147,
+        "raw_counts": {
+          "hedge": 6,
+          "revise": 2,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.1657276083155237,
+          "revise": 0.38857586943850786,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 8,
+        "total_markers_normalized": 1.5543034777540314,
+        "early_normalized": {
+          "hedge": 0.388651379712398,
+          "revise": 0.388651379712398,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.9432568985619898,
+          "revise": 0.388651379712398,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      }
+    ]
+  },
+  "qwen3-4b-thinking": {
+    "n_traces": 20,
+    "n_correct": 10,
+    "n_incorrect": 10,
+    "accuracy": 0.5,
+    "correlations": {
+      "hedge": {
+        "spearman_rho": 0.20810639268578882,
+        "p_value": 0.37861524719490786,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 1.3967627080928096,
+        "mean_density_incorrect": 1.6396813369854797
+      },
+      "revise": {
+        "spearman_rho": -0.0833833898301743,
+        "p_value": 0.7267136512371802,
+        "passes_rho_threshold": false,
+        "passes_p_value": false,
+        "significant": false,
+        "mean_density_correct": 0.07625684114753531,
+        "mean_density_incorrect": 0.07183775228255121
+      },
+      "verify": {
+        "spearman_rho": -0.22396542957264565,
+        "p_value": 0.3424958185101694,
+        "passes_rho_threshold": true,
+        "passes_p_value": false,
+        "significant": true,
+        "mean_density_correct": 0.08940641814654547,
+        "mean_density_incorrect": 0.08981114223054938
+      },
+      "explicit": {
+        "spearman_rho": 0.0,
+        "p_value": 1.0,
+        "passes_rho_threshold": false,
+        "passes_p_value": false,
+        "significant": false,
+        "mean_density_correct": 0.0,
+        "mean_density_incorrect": 0.0
+      }
+    },
+    "total_rho": 0.08671099695241198,
+    "total_p": 0.716231383316418,
+    "n_significant_categories": 2,
+    "top_markers_in_errors": {
+      "hedge": 1.6396813369854797,
+      "revise": 0.07183775228255121,
+      "verify": 0.08981114223054938,
+      "explicit": 0.0
+    },
+    "trace_data": [
+      {
+        "question_id": "medqa_0228",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 20242,
+        "raw_counts": {
+          "hedge": 30,
+          "revise": 1,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.4820669894279221,
+          "revise": 0.04940223298093074,
+          "verify": 0.09880446596186147,
+          "explicit": 0.0
+        },
+        "total_markers": 33,
+        "total_markers_normalized": 1.6302736883707143,
+        "early_normalized": {
+          "hedge": 1.0868491255804762,
+          "revise": 0.09880446596186147,
+          "verify": 0.09880446596186147,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.877284853275368,
+          "revise": 0.0,
+          "verify": 0.09880446596186147,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0051",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 1124,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.7793594306049823,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 2,
+        "total_markers_normalized": 1.7793594306049823,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 3.5587188612099645,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0563",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 9742,
+        "raw_counts": {
+          "hedge": 12,
+          "revise": 1,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.2317799219872716,
+          "revise": 0.10264832683227264,
+          "verify": 0.10264832683227264,
+          "explicit": 0.0
+        },
+        "total_markers": 14,
+        "total_markers_normalized": 1.437076575651817,
+        "early_normalized": {
+          "hedge": 1.0264832683227263,
+          "revise": 0.0,
+          "verify": 0.20529665366454528,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.437076575651817,
+          "revise": 0.20529665366454528,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0501",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 16385,
+        "raw_counts": {
+          "hedge": 34,
+          "revise": 1,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.0750686603600856,
+          "revise": 0.061031431187061336,
+          "verify": 0.061031431187061336,
+          "explicit": 0.0
+        },
+        "total_markers": 36,
+        "total_markers_normalized": 2.1971315227342085,
+        "early_normalized": {
+          "hedge": 0.9765625,
+          "revise": 0.1220703125,
+          "verify": 0.1220703125,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 3.173828125,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0457",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 2493,
+        "raw_counts": {
+          "hedge": 8,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 3.2089851584436424,
+          "revise": 0.4011231448054553,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 9,
+        "total_markers_normalized": 3.6101083032490977,
+        "early_normalized": {
+          "hedge": 2.407704654895666,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 4.012841091492777,
+          "revise": 0.8025682182985554,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0285",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 12132,
+        "raw_counts": {
+          "hedge": 31,
+          "revise": 2,
+          "verify": 6,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.555225848994395,
+          "revise": 0.16485328058028353,
+          "verify": 0.49455984174085066,
+          "explicit": 0.0
+        },
+        "total_markers": 39,
+        "total_markers_normalized": 3.214638971315529,
+        "early_normalized": {
+          "hedge": 2.472799208704253,
+          "revise": 0.32970656116056707,
+          "verify": 0.6594131223211341,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.6376524892845365,
+          "revise": 0.0,
+          "verify": 0.32970656116056707,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0209",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 13679,
+        "raw_counts": {
+          "hedge": 15,
+          "revise": 1,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.0965713867972806,
+          "revise": 0.0731047591198187,
+          "verify": 0.1462095182396374,
+          "explicit": 0.0
+        },
+        "total_markers": 18,
+        "total_markers_normalized": 1.3158856641567367,
+        "early_normalized": {
+          "hedge": 1.3159818686942535,
+          "revise": 0.14622020763269483,
+          "verify": 0.14622020763269483,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.877321245796169,
+          "revise": 0.0,
+          "verify": 0.14622020763269483,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1116",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 23828,
+        "raw_counts": {
+          "hedge": 48,
+          "revise": 1,
+          "verify": 3,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.0144367970454926,
+          "revise": 0.041967433271781096,
+          "verify": 0.1259022998153433,
+          "explicit": 0.0
+        },
+        "total_markers": 52,
+        "total_markers_normalized": 2.182306530132617,
+        "early_normalized": {
+          "hedge": 1.9305019305019304,
+          "revise": 0.08393486654356219,
+          "verify": 0.08393486654356219,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.098371663589055,
+          "revise": 0.0,
+          "verify": 0.16786973308712438,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0178",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 14302,
+        "raw_counts": {
+          "hedge": 17,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.1886449447629701,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 17,
+        "total_markers_normalized": 1.1886449447629701,
+        "early_normalized": {
+          "hedge": 0.13984058173682,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.0976087260523,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1209",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 15311,
+        "raw_counts": {
+          "hedge": 39,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 2.5471882959963423,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 39,
+        "total_markers_normalized": 2.5471882959963423,
+        "early_normalized": {
+          "hedge": 2.612671456564337,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.4820378837361203,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0864",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 15236,
+        "raw_counts": {
+          "hedge": 11,
+          "revise": 1,
+          "verify": 3,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.7219742714623261,
+          "revise": 0.06563402467839329,
+          "verify": 0.19690207403517984,
+          "explicit": 0.0
+        },
+        "total_markers": 15,
+        "total_markers_normalized": 0.9845103701758993,
+        "early_normalized": {
+          "hedge": 0.26253609871357314,
+          "revise": 0.13126804935678657,
+          "verify": 0.13126804935678657,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.181412444211079,
+          "revise": 0.0,
+          "verify": 0.26253609871357314,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0065",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 14360,
+        "raw_counts": {
+          "hedge": 19,
+          "revise": 0,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.3231197771587744,
+          "revise": 0.0,
+          "verify": 0.1392757660167131,
+          "explicit": 0.0
+        },
+        "total_markers": 21,
+        "total_markers_normalized": 1.4623955431754876,
+        "early_normalized": {
+          "hedge": 0.9749303621169917,
+          "revise": 0.0,
+          "verify": 0.1392757660167131,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.6713091922005572,
+          "revise": 0.0,
+          "verify": 0.1392757660167131,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0061",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 982,
+        "raw_counts": {
+          "hedge": 0,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 0,
+        "total_markers_normalized": 0.0,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0191",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 8488,
+        "raw_counts": {
+          "hedge": 16,
+          "revise": 0,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.885014137606032,
+          "revise": 0.0,
+          "verify": 0.117813383600377,
+          "explicit": 0.0
+        },
+        "total_markers": 17,
+        "total_markers_normalized": 2.002827521206409,
+        "early_normalized": {
+          "hedge": 2.591894439208294,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.17813383600377,
+          "revise": 0.0,
+          "verify": 0.235626767200754,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0447",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 14261,
+        "raw_counts": {
+          "hedge": 26,
+          "revise": 1,
+          "verify": 2,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.8231540565177757,
+          "revise": 0.0701213098660683,
+          "verify": 0.1402426197321366,
+          "explicit": 0.0
+        },
+        "total_markers": 29,
+        "total_markers_normalized": 2.0335179861159807,
+        "early_normalized": {
+          "hedge": 1.9635343618513323,
+          "revise": 0.1402524544179523,
+          "verify": 0.1402524544179523,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.6830294530154277,
+          "revise": 0.0,
+          "verify": 0.1402524544179523,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0476",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 11607,
+        "raw_counts": {
+          "hedge": 18,
+          "revise": 0,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.5507883173946757,
+          "revise": 0.0,
+          "verify": 0.08615490652192642,
+          "explicit": 0.0
+        },
+        "total_markers": 19,
+        "total_markers_normalized": 1.6369432239166022,
+        "early_normalized": {
+          "hedge": 2.240220575564363,
+          "revise": 0.0,
+          "verify": 0.17232465965879717,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.8616232982939859,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1034",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 2106,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.949667616334283,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 2,
+        "total_markers_normalized": 0.949667616334283,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.899335232668566,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1232",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 2217,
+        "raw_counts": {
+          "hedge": 2,
+          "revise": 1,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.9021199819576003,
+          "revise": 0.4510599909788002,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.3531799729364005,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.9025270758122743,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 1.8050541516245486,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_0054",
+        "is_correct": true,
+        "is_error": false,
+        "thinking_chars": 12102,
+        "raw_counts": {
+          "hedge": 12,
+          "revise": 0,
+          "verify": 1,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 0.991571641051066,
+          "revise": 0.0,
+          "verify": 0.08263097008758882,
+          "explicit": 0.0
+        },
+        "total_markers": 13,
+        "total_markers_normalized": 1.074202611138655,
+        "early_normalized": {
+          "hedge": 1.3220955214014212,
+          "revise": 0.0,
+          "verify": 0.16526194017517765,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 0.6610477607007106,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      },
+      {
+        "question_id": "medqa_1149",
+        "is_correct": false,
+        "is_error": true,
+        "thinking_chars": 2891,
+        "raw_counts": {
+          "hedge": 3,
+          "revise": 0,
+          "verify": 0,
+          "explicit": 0
+        },
+        "normalized_counts": {
+          "hedge": 1.0377032168799722,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "total_markers": 3,
+        "total_markers_normalized": 1.0377032168799722,
+        "early_normalized": {
+          "hedge": 0.0,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        },
+        "late_normalized": {
+          "hedge": 2.0761245674740483,
+          "revise": 0.0,
+          "verify": 0.0,
+          "explicit": 0.0
+        }
+      }
+    ]
+  }
+}

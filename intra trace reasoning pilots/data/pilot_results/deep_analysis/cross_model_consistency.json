@@ -1,0 +1,304 @@
+{
+  "n_common_questions": 20,
+  "n_easy": 8,
+  "n_hard": 4,
+  "n_mixed": 8,
+  "easy_questions": [
+    "medqa_0051",
+    "medqa_0054",
+    "medqa_0065",
+    "medqa_0209",
+    "medqa_0476",
+    "medqa_0563",
+    "medqa_0864",
+    "medqa_1232"
+  ],
+  "hard_questions": [
+    "medqa_0178",
+    "medqa_0285",
+    "medqa_1116",
+    "medqa_1149"
+  ],
+  "mixed_questions": [
+    "medqa_0061",
+    "medqa_0191",
+    "medqa_0228",
+    "medqa_0447",
+    "medqa_0457",
+    "medqa_0501",
+    "medqa_1034",
+    "medqa_1209"
+  ],
+  "question_profiles": {
+    "medqa_0051": {
+      "question_id": "medqa_0051",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0054": {
+      "question_id": "medqa_0054",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0061": {
+      "question_id": "medqa_0061",
+      "n_correct": 2,
+      "n_wrong": 1,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b"
+      ],
+      "wrong_models": [
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0065": {
+      "question_id": "medqa_0065",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0178": {
+      "question_id": "medqa_0178",
+      "n_correct": 0,
+      "n_wrong": 3,
+      "correct_models": [],
+      "wrong_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "hard"
+    },
+    "medqa_0191": {
+      "question_id": "medqa_0191",
+      "n_correct": 1,
+      "n_wrong": 2,
+      "correct_models": [
+        "qwq-32b"
+      ],
+      "wrong_models": [
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0209": {
+      "question_id": "medqa_0209",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0228": {
+      "question_id": "medqa_0228",
+      "n_correct": 1,
+      "n_wrong": 2,
+      "correct_models": [
+        "qwen3-8b"
+      ],
+      "wrong_models": [
+        "qwq-32b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0285": {
+      "question_id": "medqa_0285",
+      "n_correct": 0,
+      "n_wrong": 3,
+      "correct_models": [],
+      "wrong_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "hard"
+    },
+    "medqa_0447": {
+      "question_id": "medqa_0447",
+      "n_correct": 2,
+      "n_wrong": 1,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [
+        "qwen3-8b"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0457": {
+      "question_id": "medqa_0457",
+      "n_correct": 2,
+      "n_wrong": 1,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b"
+      ],
+      "wrong_models": [
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0476": {
+      "question_id": "medqa_0476",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0501": {
+      "question_id": "medqa_0501",
+      "n_correct": 1,
+      "n_wrong": 2,
+      "correct_models": [
+        "qwq-32b"
+      ],
+      "wrong_models": [
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_0563": {
+      "question_id": "medqa_0563",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_0864": {
+      "question_id": "medqa_0864",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    },
+    "medqa_1034": {
+      "question_id": "medqa_1034",
+      "n_correct": 1,
+      "n_wrong": 2,
+      "correct_models": [
+        "qwq-32b"
+      ],
+      "wrong_models": [
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_1116": {
+      "question_id": "medqa_1116",
+      "n_correct": 0,
+      "n_wrong": 3,
+      "correct_models": [],
+      "wrong_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "hard"
+    },
+    "medqa_1149": {
+      "question_id": "medqa_1149",
+      "n_correct": 0,
+      "n_wrong": 3,
+      "correct_models": [],
+      "wrong_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "difficulty": "hard"
+    },
+    "medqa_1209": {
+      "question_id": "medqa_1209",
+      "n_correct": 2,
+      "n_wrong": 1,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [
+        "qwen3-8b"
+      ],
+      "difficulty": "mixed"
+    },
+    "medqa_1232": {
+      "question_id": "medqa_1232",
+      "n_correct": 3,
+      "n_wrong": 0,
+      "correct_models": [
+        "qwq-32b",
+        "qwen3-8b",
+        "qwen3-4b-thinking"
+      ],
+      "wrong_models": [],
+      "difficulty": "easy"
+    }
+  },
+  "agreement_matrix": [
+    [
+      1.0,
+      0.7,
+      0.75
+    ],
+    [
+      0.7,
+      1.0,
+      0.75
+    ],
+    [
+      0.75,
+      0.75,
+      1.0
+    ]
+  ],
+  "model_names": [
+    "qwq-32b",
+    "qwen3-8b",
+    "qwen3-4b-thinking"
+  ]
+}

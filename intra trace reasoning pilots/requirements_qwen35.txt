@@ -1,0 +1,33 @@
+# Dependencies for Qwen3.5-27B experiments
+# SEPARATE from requirements_pilots.txt because Qwen3.5 needs
+# bleeding-edge transformers with Gated DeltaNet support.
+#
+# Install: pip install -r requirements_qwen35.txt
+#
+# WARNING: This will upgrade transformers to the dev version.
+# Run Qwen3.5-27B traces FIRST, then if needed, reinstall stable
+# transformers for the other models.
+
+# Qwen3.5 requires transformers from git main
+transformers @ git+https://github.com/huggingface/transformers.git@main
+
+# Core
+torch>=2.0.0
+accelerate>=0.30.0
+
+# CRITICAL: Qwen3.5 uses Gated DeltaNet (linear attention).
+# Without these, inference falls back to pure-torch CPU compute (~100x slower).
+causal-conv1d>=1.4.0
+flash-linear-attention
+
+# Dataset + shared utilities
+datasets>=2.16.0
+numpy>=1.24.0
+tqdm>=4.65.0
+huggingface_hub>=0.20.0
+
+# Optional: 4-bit quantization fallback if OOM
+bitsandbytes>=0.43.0
+
+# Optional but recommended: Flash Attention 2 for the standard attention layers
+# pip install flash-attn --no-build-isolation

@@ -1,0 +1,32 @@
+# Unified dependencies for intra-trace reasoning uncertainty pilots
+# Install: pip install -r requirements.txt
+#
+# NOTE: Install torch first with CUDA support:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Core ML
+torch>=2.0.0
+transformers>=4.52.0
+accelerate>=0.30.0
+sentence-transformers>=3.0.0
+
+# Datasets
+datasets>=2.16.0
+
+# Statistical analysis
+scipy>=1.12.0
+numpy>=1.24.0
+
+# Qwen3.5-27B DeltaNet dependencies
+causal-conv1d>=1.4.0
+flash-linear-attention
+
+# 4-bit quantization fallback
+bitsandbytes>=0.43.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.65.0
+huggingface_hub>=0.20.0

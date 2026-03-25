@@ -1,0 +1,85 @@
+mjoshi@server:~/rlm and ttt for uncertain medical reasoning$ python3 src/run_pilots.py --generate --model qwen3-8b
+
+============================================================
+STEP 2: Generate Reasoning Traces
+============================================================
+Loaded 20 pilot questions from cache
+
+Models: ['qwen3-8b']
+Questions: 20
+
+============================================================
+MODEL: qwen3-8b (Qwen/Qwen3-8B)
+============================================================
+
+============================================================
+Loading: Qwen/Qwen3-8B
+  device_map: auto
+============================================================
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████| 728/728 [00:00<00:00, 442kB/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+tokenizer_config.json: 9.73kB [00:00, 3.61MB/s]
+vocab.json: 2.78MB [00:00, 15.0MB/s]
+merges.txt: 1.67MB [00:00, 23.3MB/s]
+tokenizer.json: 100%|█████████████████████████████████████████████████████████████████████████| 11.4M/11.4M [00:01<00:00, 6.71MB/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+model.safetensors.index.json: 32.9kB [00:00, 6.90MB/s]
+Fetching 5 files: 100%|██████████████████████████████████████████████████████████████████████████████| 5/5 [02:26<00:00, 29.23s/it]
+Download complete: 100%|██████████████████████████████████████████████████████████████████████| 16.4G/16.4G [02:26<00:00, 28.3MB/s]  ⚠ Flash attention failed (FlashAttention2 has been toggled on, but it cannot be used due to the following error: the package flash_attn seems to be not installed. Please refer to the documentation of https://huggingface.co/docs/transformers/perf_infer_gpu_one#flashattention-2 to install Flash Attention 2.), trying without it...
+Download complete: 100%|███████████████████████████████████████████████████████████████████████| 16.4G/16.4G [02:26<00:00, 112MB/s]
+Loading weights: 100%|████████████████████████████████████| 399/399 [00:58<00:00,  6.83it/s, Materializing param=model.norm.weight]
+generation_config.json: 100%|| 239/239 [00:00<00:00, 317kB/s]
+  ✓ Model loaded successfully
+  [1/20] Generating...
+    [✓] medqa_0228: predicted=A correct=A (234.5s, 1960 tokens, 5862 chars thinking)
+  [2/20] Generating...
+    [✓] medqa_0051: predicted=A correct=A (232.3s, 1909 tokens, 5018 chars thinking)
+  [3/20] Generating...
+    [✓] medqa_0563: predicted=A correct=A (128.9s, 860 tokens, 1972 chars thinking)
+  [4/20] Generating...
+    [✗] medqa_0501: predicted=B correct=D (241.2s, 2336 tokens, 4367 chars thinking)
+  [5/20] Generating...
+    [✓] medqa_0457: predicted=B correct=B (199.9s, 1670 tokens, 4588 chars thinking)
+  [6/20] Generating...
+    [✗] medqa_0285: predicted=D correct=C (18██████████████████████████████████████████████████████████████████████9.9s, 1923 tokens, 6710 chars thinking)
+  [7/20] Generating...
+    [✓] medqa_0209: predicted=A correct=A (166.9s, 1536 tokens, 5026 chars thinking)
+  [8/20] Generating...
+    [✗] medqa_1116: predicted=? correct=C (209.8s, 1755 tokens, 5937 chars thinking)
+  [9/20] Generating...
+    [✗] medqa_0178: predicted=A correct=D (468.8s, 3730 tokens, 3491 chars thinking)
+  [10/20] Generating...
+    [✗] medqa_1209: predicted=? correct=A (239.0s, 2155 tokens, 8451 chars thinking)
+  [11/20] Generating...
+    [✓] medqa_0864: predicted=D correct=D (266.9s, 2299 tokens, 7369 chars thinking)
+  [12/20] Generating...
+    [✓] medqa_0065: predicted=B correct=B (199.5s, 1715 tokens, 5693 chars thinking)
+  [13/20] Generating...
+    [✓] medqa_0061: predicted=A correct=A (95.0s, 816 tokens, 2130 chars thinking)
+  [14/20] Generating...
+    [✗] medqa_0191: predicted=B correct=C (387.5s, 3554 tokens, 4973 chars thinking)
+  [15/20] Generating...
+    [✗] medqa_0447: predicted=A correct=C (261.4s, 2412 tokens, 7677 chars thinking)
+  [16/20] Generating...
+    [✓] medqa_0476: predicted=C correct=C (104.9s, 1024 tokens, 2614 chars thinking)
+  [17/20] Generating...
+    [✗] medqa_1034: predicted=C correct=B (253.1s, 2101 tokens, 6995 chars thinking)
+  [18/20] Generating...
+    [✓] medqa_1232: predicted=A correct=A (79.9s, 883 tokens, 788 chars thinking)
+  [19/20] Generating...
+    [✓] medqa_0054: predicted=A correct=A (90.1s, 819 tokens, 2082 chars thinking)
+  [20/20] Generating...
+    [✗] medqa_1149: predicted=? correct=B (212.2s, 1552 tokens, 5147 chars thinking)
+
+  RESULTS for qwen3-8b:
+    Accuracy:       11/20 (55.0%)
+    Parsed answers: 17/20
+    Errors:         0
+    Avg thinking:   4844 chars
+    Saved to:       /home/mjoshi/rlm and ttt for uncertain medical reasoning/data/traces/qwen3-8b/traces.jsonl
+
+✓ All done!
+
+============================================================
+✓ Complete in 75.5 minutes
+============================================================

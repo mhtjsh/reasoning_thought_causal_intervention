@@ -1,0 +1,40 @@
+============================================================
+PILOT 3: Uncertainty Marker Calibration — Report
+============================================================
+
+────────────────────────────────────────
+Model: qwq-32b
+  Accuracy: 75.0% (15/20)
+  Significant categories (|ρ| > 0.15): 3/4
+  [✓] hedge: ρ=+0.390, p=0.0887
+  [✓] revise: ρ=-0.230, p=0.3287
+  [✓] verify: ρ=+0.552, p=0.0116
+  [✗] explicit: ρ=-0.132, p=0.5778
+  Total markers: ρ=+0.511, p=0.0214
+
+────────────────────────────────────────
+Model: qwen3-8b
+  Accuracy: 55.0% (11/20)
+  Significant categories (|ρ| > 0.15): 3/4
+  [✗] hedge: ρ=+0.061, p=0.7983
+  [✓] revise: ρ=+0.288, p=0.2187
+  [✓] verify: ρ=-0.181, p=0.4444
+  [✓] explicit: ρ=+0.254, p=0.2806
+  Total markers: ρ=+0.270, p=0.2493
+
+────────────────────────────────────────
+Model: qwen3-4b-thinking
+  Accuracy: 50.0% (10/20)
+  Significant categories (|ρ| > 0.15): 2/4
+  [✓] hedge: ρ=+0.208, p=0.3786
+  [✗] revise: ρ=-0.083, p=0.7267
+  [✓] verify: ρ=-0.224, p=0.3425
+  [✗] explicit: ρ=+0.000, p=1.0000
+  Total markers: ρ=+0.087, p=0.7162
+
+============================================================
+PASS/FAIL CRITERIA:
+  Criterion: |ρ| > 0.15 for ≥1 category
+  Models with signal: 3
+  Required: 2
+  Result: PASS ✓
